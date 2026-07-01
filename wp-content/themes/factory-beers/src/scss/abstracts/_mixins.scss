@@ -1,0 +1,30 @@
+// _mixins.scss
+
+// Responsive breakpoint helper
+@mixin respond-to($bp) {
+    @if $bp == sm      { @media (min-width: 576px)  { @content; } }
+    @else if $bp == md { @media (min-width: 768px)  { @content; } }
+    @else if $bp == lg { @media (min-width: 1024px) { @content; } }
+    @else if $bp == xl { @media (min-width: 1280px) { @content; } }
+  }
+  
+  // Flexbox shorthand
+  @mixin flex($direction: row, $justify: flex-start, $align: stretch) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+  }
+  
+  // Visually hidden (accessible)
+  @mixin visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }

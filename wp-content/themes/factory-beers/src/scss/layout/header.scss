@@ -1,0 +1,81 @@
+#masthead{
+    background-color: #ffffff;
+        .content-container{
+            display:flex;
+            flex-wrap:nowrap;
+            justify-content: space-between;
+            padding:10px 50px;
+            .site-branding{
+                width: 150px;
+            }
+            #site-navigation{
+                width: 50%;
+                display:flex;
+                justify-content: flex-end;
+                align-items: center;
+                .nav-menu{
+                    li{
+                        margin-left:15px;
+                        a{
+                            color: #000000;
+                            text-decoration: none;
+                            font-size: 16px;
+                            line-height: 16px;
+                            &:hover{
+                                opacity: .6;
+                            }
+                            &:visited{
+                                color: #000000;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}
+
+@media screen and (max-width: 768px){
+    .main-navigation{
+        position:relative;
+        button{
+            background-color: transparent;
+            border:1px solid #000000;
+            .mobile-menu-bars{
+                display:block;
+                height: 3px;
+                width: 30px;
+                background-color: #000000;
+                margin: 5px auto;
+            }
+            &:hover{
+                background-color: #000000;
+                cursor:pointer;
+                .mobile-menu-bars{
+                    background-color: #ffffff;
+                }
+            }
+        }
+        &.toggled{
+            button{
+                background-color: #000000;
+                .mobile-menu-bars{
+                    background-color: #ffffff;
+                }
+            }
+            #primary-menu{
+                position: absolute;
+                bottom: -45px;
+                background-color: white;
+                border: 1px solid rgba(0,0,0,0.5);
+                border-radius: 5px;
+                width: max-content;
+                padding: 10px;
+                .nav-menu{
+                    li{
+                        margin: 5px 0;
+                    }
+                }
+            }
+        }
+    }
+}

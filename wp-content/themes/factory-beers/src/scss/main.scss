@@ -1,0 +1,10 @@
+// Main SCSS entry — import your partials here
+@use 'abstracts/variables';
+@use 'abstracts/mixins';
+//@use 'base/reset';
+//@use 'base/typography';
+//@use 'components/buttons';
+@use 'layout/globals';
+@use 'layout/header';
+@use 'layout/footer';
+

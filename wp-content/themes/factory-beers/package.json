@@ -1,0 +1,37 @@
+{
+  "name": "factorybeers",
+  "version": "1.0.0",
+  "description": "Factory beers theme.",
+  "author": "Jacob Vig",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "WordPress",
+    "Theme"
+  ],
+  "scripts": {
+    "start": "wp-scripts start src/js/main.js src/js/editor.js --output-path=build",
+    "build": "wp-scripts build src/js/main.js src/js/editor.js --output-path=build",
+    "lint:scss": "wp-scripts lint-style 'src/scss/**/*.scss'",
+    "lint:js": "wp-scripts lint-js 'src/js/**/*.js'",
+    "compile:rtl": "rtlcss build/main.css build/main-rtl.css",
+    "bundle": "dir-archiver --src . --dest ../_s.zip --exclude .DS_Store .stylelintrc.json .eslintrc .git .gitattributes .github .gitignore README.md node_modules package-lock.json package.json yarn.lock src"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^31.5.0",
+    "dir-archiver": "^1.1.1",
+    "rtlcss": "^3.5.0"
+  },
+  "rtlcssConfig": {
+    "options": {
+      "autoRename": false,
+      "autoRenameStrict": false,
+      "blacklist": {},
+      "clean": true,
+      "greedy": false,
+      "processUrls": false,
+      "stringMap": []
+    },
+    "plugins": [],
+    "map": false
+  }
+}

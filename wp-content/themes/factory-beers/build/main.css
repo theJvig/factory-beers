@@ -1,0 +1,192 @@
+/*!*******************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/scss/main.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************/
+body {
+  margin-bottom: 0px !important;
+}
+
+#masthead {
+  background-color: #ffffff;
+}
+
+#masthead .content-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+
+#masthead .content-container .site-branding {
+  width: 150px;
+}
+
+#masthead .content-container #site-navigation {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#masthead .content-container #site-navigation .nav-menu li {
+  margin-left: 15px;
+}
+
+#masthead .content-container #site-navigation .nav-menu li a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+#masthead .content-container #site-navigation .nav-menu li a:hover {
+  opacity: 0.6;
+}
+
+#masthead .content-container #site-navigation .nav-menu li a:visited {
+  color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+  .main-navigation {
+    position: relative;
+  }
+  .main-navigation button {
+    background-color: transparent;
+    border: 1px solid #000000;
+  }
+  .main-navigation button .mobile-menu-bars {
+    display: block;
+    height: 3px;
+    width: 30px;
+    background-color: #000000;
+    margin: 5px auto;
+  }
+  .main-navigation button:hover {
+    background-color: #000000;
+    cursor: pointer;
+  }
+  .main-navigation button:hover .mobile-menu-bars {
+    background-color: #ffffff;
+  }
+  .main-navigation.toggled button {
+    background-color: #000000;
+  }
+  .main-navigation.toggled button .mobile-menu-bars {
+    background-color: #ffffff;
+  }
+  .main-navigation.toggled #primary-menu {
+    position: absolute;
+    bottom: -45px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    width: -moz-max-content;
+    width: max-content;
+    padding: 10px;
+  }
+  .main-navigation.toggled #primary-menu .nav-menu li {
+    margin: 5px 0;
+  }
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.site-footer {
+  padding: 25px 50px;
+  background-color: #000000;
+}
+
+.site-footer .site-info {
+  width: 50%;
+  align-content: center;
+}
+
+.site-footer .site-info a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.site-footer .site-info a:hover {
+  opacity: 0.8;
+}
+
+.site-footer .site-info a:visited {
+  color: #ffffff;
+}
+
+.site-footer .brewery-hours-location {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+.site-footer .brewery-hours-location .address h4 {
+  color: #fff;
+  font-size: 24px;
+  line-height: 26px;
+  margin: 0px 0px 15px;
+}
+
+.site-footer .brewery-hours-location .address a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.site-footer .brewery-hours-location .address a:hover {
+  opacity: 0.8;
+}
+
+.site-footer .brewery-hours-location .address a:visited {
+  color: #fff;
+}
+
+.site-footer .brewery-hours-location .hours {
+  margin-left: 25px;
+}
+
+.site-footer .brewery-hours-location .hours h4 {
+  color: #fff;
+  font-size: 24px;
+  line-height: 26px;
+  margin: 0px 0px 15px;
+}
+
+.site-footer .brewery-hours-location .hours ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.site-footer .brewery-hours-location .hours ul li {
+  padding: 0px;
+  margin: 0px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 768px) {
+  .site-footer .footer-container {
+    flex-wrap: wrap;
+  }
+  .site-footer .footer-container .site-info {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .site-footer .footer-container .brewery-hours-location {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map*/

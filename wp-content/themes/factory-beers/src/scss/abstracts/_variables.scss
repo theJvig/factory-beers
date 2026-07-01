@@ -1,0 +1,32 @@
+// _variables.scss
+// Keep these in sync with your theme.json color/font presets
+
+// Colors
+$color-primary:    #0073aa;
+$color-secondary:  #f0f0f0;
+$color-text:       #1a1a1a;
+$color-background: #ffffff;
+
+// Typography
+$font-body:    Georgia, serif;
+$font-heading: 'Helvetica Neue', Helvetica, sans-serif;
+
+$font-size-sm: 16px;
+$font-size-smmd: 18px;
+$font-size-md: 24px;
+$font-size-mdlg: 36px;
+$font-size-lg: 48px;
+
+
+// Spacing
+$spacing-xs: 0.25rem;
+$spacing-sm: 0.5rem;
+$spacing-md: 1rem;
+$spacing-lg: 2rem;
+$spacing-xl: 4rem;
+
+// Breakpoints
+$bp-sm:  576px;
+$bp-md:  768px;
+$bp-lg:  1024px;
+$bp-xl:  1280px;
