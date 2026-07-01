@@ -123,6 +123,14 @@ body {
   color: #ffffff;
 }
 
+.site-footer .site-info h4 {
+  color: #ffffff;
+}
+
+.site-footer .site-info i {
+  color: #ffffff;
+}
+
 .site-footer .brewery-hours-location {
   display: flex;
   flex-wrap: nowrap;

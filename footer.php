@@ -14,9 +14,16 @@
 	<footer id="colophon" class="site-footer">
 		<div class="footer-container">
 			<div class="site-info">
-				<a href="/">
-					The Factory Brewing Collective &copy; 2026
-				</a>
+				<div>
+					<a href="/">
+						The Factory Brewing Collective &copy; 2026
+					</a>
+				</div>
+				<div>
+					<h4>Follow us on social:
+					<a href="https://www.instagram.com/factorybeers/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					<a href="https://www.facebook.com/factorybeers/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				</div>
 			</div><!-- .site-info -->
 			<div class="brewery-hours-location">
 				<div class="address">
