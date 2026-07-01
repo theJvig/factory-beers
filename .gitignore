@@ -1,6 +1,19 @@
+# Ignore core WordPress configuration
 wp-config.php
+
+# Ignore core WordPress files
+wp-admin/
+wp-includes/
+*.php
+!wp-content/
+
+# Ignore uploads and backups (They belong in the cloud/DB, not Git)
 wp-content/uploads/
-wp-content/cache/
-.env
+wp-content/blogs.dir/
+wp-content/upgrade/
+wp-content/backup-capability/
+*.log
+.htaccess
+
+#Ignore Node Mods
 node_modules/
-.DS_Store
