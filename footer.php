@@ -20,9 +20,9 @@
 					</a>
 				</div>
 				<div>
-					<h4>Follow us on social:
-					<a href="https://www.instagram.com/factorybeers/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-					<a href="https://www.facebook.com/factorybeers/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<h4>Follow us on our socials:
+					<a href="https://www.instagram.com/factorybeers/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					<a href="https://www.facebook.com/factorybeers/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 				</div>
 			</div><!-- .site-info -->
 			<div class="brewery-hours-location">
